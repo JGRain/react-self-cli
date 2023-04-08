@@ -1,0 +1,43 @@
+{
+  "name": "react-booster-cli",
+  "version": "0.1.6",
+  "description": "Command line interface for rapid react project development",
+  "author": "zhengyudong",
+  "bin": {
+    "booster": "bin/booster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEyudong/booster.git",
+    "directory": "packages/react-booster-cli"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "booster"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {},
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "ejs": "^3.1.6",
+    "execa": "^1.0.0",
+    "fs-extra": "^10.0.0",
+    "globby": "^9.2.0",
+    "inquirer": "^8.2.0",
+    "isbinaryfile": "^4.0.8",
+    "ora": "^4.0.1",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.5"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "gitHead": "63e0140e351feb3a419262ae453d4c01a2945e40"
+}
